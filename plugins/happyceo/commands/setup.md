@@ -1,8 +1,5 @@
 ---
-name: setup
 description: "Guided setup wizard — configure HappyCEO for your business"
-user-invocable: true
-allowed-tools: AskUserQuestion, Write, Edit, Read, Bash, Glob, mcp__notion__notion-search, mcp__notion__notion-fetch, mcp__notion__notion-create-database, mcp__notion__notion-update-data-source
 ---
 
 # HappyCEO Setup Wizard

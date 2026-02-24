@@ -1,8 +1,6 @@
 ---
-name: log-task
 description: Quickly log a task you're working on
-user-invocable: true
-allowed-tools: AskUserQuestion, mcp__notion__notion-create-pages, mcp__notion__notion-search
+argument-hint: "<task description>"
 ---
 
 # Log Task

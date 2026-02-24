@@ -1,8 +1,6 @@
 ---
-name: social-idea
 description: Capture a social post idea to the queue
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, Read, mcp__notion__notion-create-pages
+argument-hint: "<idea text>"
 ---
 
 # Social Idea

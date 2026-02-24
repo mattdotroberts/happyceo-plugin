@@ -29,10 +29,10 @@ This will walk you through connecting your Notion databases, optional integratio
 
 ## What's Included
 
-19 skills organized by workflow:
+19 commands organized by workflow:
 
-| Category | Skills |
-|----------|--------|
+| Category | Commands |
+|----------|----------|
 | **Daily Ops** | `start-day`, `end-day`, `day-update` |
 | **Meetings** | `meeting-prep`, `meeting-wrap` |
 | **Tasks & CRM** | `log-task`, `log-time`, `notion-health` |
@@ -41,19 +41,20 @@ This will walk you through connecting your Notion databases, optional integratio
 | **Business Dev** | `scope-proposal`, `spec` |
 | **Setup** | `setup` |
 
-All skills are prefixed with `happyceo:` — e.g., `/happyceo:start-day`.
+All commands are prefixed with `happyceo:` — e.g., `/happyceo:start-day`.
 
-## Optional Integrations
+## Connectors
 
-| Integration | What It Enables |
-|-------------|----------------|
-| Gmail MCP | Inbox triage, email drafting |
+The plugin auto-configures MCP connectors for Notion, Gmail, Slack, and Google Calendar. Connect them during setup and commands will use them automatically.
+
+| Connector | What It Enables |
+|-----------|----------------|
+| Notion | Task management, CRM, meetings, social content (required) |
+| Gmail | Inbox triage, email drafting |
 | Slack | Daily briefings posted to a channel |
 | Google Calendar | Meeting awareness in briefings |
-| Resend | Monthly email sending |
-| Brandfetch | Logo fetching for proposals |
 
-Skills gracefully skip unconfigured integrations — start with just Notion and add more over time.
+Commands gracefully skip unconfigured connectors — start with just Notion and add more over time.
 
 ## Documentation
 

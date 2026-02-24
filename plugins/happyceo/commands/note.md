@@ -1,8 +1,6 @@
 ---
-name: note
 description: Quick capture to inbox
-user-invocable: true
-allowed-tools: AskUserQuestion, Read, Edit
+argument-hint: "<text to capture>"
 ---
 
 # Note Skill

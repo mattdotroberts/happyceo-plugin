@@ -1,8 +1,5 @@
 ---
-name: notion-health
 description: Check Notion data health and flag stale records
-user-invocable: true
-allowed-tools: AskUserQuestion, mcp__notion__notion-search, mcp__notion__notion-update-page
 ---
 
 # Notion Health Check

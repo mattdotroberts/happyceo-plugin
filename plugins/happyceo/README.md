@@ -5,10 +5,15 @@ Run your agency like a CEO with an AI chief of staff. HappyCEO is a 19-skill sys
 ## Quick Start
 
 ```bash
-# Install the plugin
-claude install happyceo
+# Add the marketplace
+claude plugin marketplace add mattdotroberts/happyceo-plugin
 
-# Run the setup wizard
+# Install the plugin
+claude plugin install happyceo
+```
+
+Then run the setup wizard:
+```
 /happyceo:setup
 ```
 
@@ -34,38 +39,42 @@ The setup wizard will:
 | Resend | Monthly email sending | API key |
 | Brandfetch | Logo fetching for proposals | API key |
 
-## Skills
+## Connectors
+
+The plugin auto-configures MCP connectors for Notion, Gmail, Slack, and Google Calendar. See [CONNECTORS.md](CONNECTORS.md) for details.
+
+## Commands
 
 ### Daily Operations
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:start-day` | Morning briefing — calendar, pipeline, tasks, inbox, content calendar |
 | `/happyceo:end-day` | Daily wrap-up — log tasks, capture wins, update CRM, prep tomorrow |
 | `/happyceo:day-update` | Quick mid-day check-in to update task progress and log time |
 
 ### Meetings
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:meeting-prep` | Research contact, create CRM/meeting records, generate discovery questions |
 | `/happyceo:meeting-wrap` | Extract insights, create tasks, draft follow-up email, update CRM |
 
 ### Tasks & CRM
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:log-task` | Quick task capture to Notion |
 | `/happyceo:log-time` | Log hours spent on a task |
 | `/happyceo:notion-health` | Data hygiene check — stale leads, missing fields, overdue tasks |
 
 ### Email
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:inbox` | Process Gmail — triage, archive noise, create tasks, draft replies |
 | `/happyceo:monthly-email` | Compose and send the monthly customer email roundup |
 | `/happyceo:note` | Quick capture to inbox scratchpad |
 
 ### Content & Social
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:draft-post` | Refine rough drafts into polished LinkedIn posts with 2-3 variations |
 | `/happyceo:social-idea` | Capture a social post idea to Notion |
 | `/happyceo:social-queue` | View queued social post ideas grouped by day |
@@ -73,23 +82,23 @@ The setup wizard will:
 | `/happyceo:event` | Generate event content — Luma descriptions, promotions, recaps |
 
 ### Business Development
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:scope-proposal` | Interactive proposal builder with case study ranking |
 | `/happyceo:spec` | Deep interview to create a detailed spec before building |
 
 ### Setup
-| Skill | Description |
-|-------|-------------|
+| Command | Description |
+|---------|-------------|
 | `/happyceo:setup` | Guided wizard to configure everything |
 
 ## How It Works
 
-HappyCEO uses your project's `CLAUDE.md` as its configuration. The setup wizard generates this file with your Notion database IDs, integration settings, and company identity. Skills read from CLAUDE.md to know where your data lives.
+HappyCEO uses your project's `CLAUDE.md` as its configuration. The setup wizard generates this file with your Notion database IDs, integration settings, and company identity. Commands read from CLAUDE.md to know where your data lives.
 
 ### Graceful Degradation
 
-Every skill checks which integrations are configured before running. If Gmail isn't set up, inbox skills skip email processing. If Slack isn't connected, Slack posting is skipped silently. You can start with just Notion and add integrations over time.
+Every command checks which connectors are configured before running. If Gmail isn't set up, inbox commands skip email processing. If Slack isn't connected, Slack posting is skipped silently. You can start with just Notion and add connectors over time.
 
 ### Content System
 

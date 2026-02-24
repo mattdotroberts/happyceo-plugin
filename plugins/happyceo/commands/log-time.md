@@ -1,8 +1,6 @@
 ---
-name: log-time
 description: Log hours spent on a task
-user-invocable: true
-allowed-tools: AskUserQuestion, mcp__notion__notion-search, mcp__notion__notion-update-page
+argument-hint: "<task name> <hours>"
 ---
 
 # Log Time

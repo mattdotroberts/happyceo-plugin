@@ -1,8 +1,5 @@
 ---
-name: day-update
 description: Quick check-in to update task progress and log time
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, mcp__notion__notion-search, mcp__notion__notion-update-page, mcp__notion__notion-create-pages
 ---
 
 # Day Update

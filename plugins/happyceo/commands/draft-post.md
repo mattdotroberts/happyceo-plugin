@@ -1,8 +1,6 @@
 ---
-name: draft-post
 description: Refine rough drafts into polished LinkedIn posts with 2-3 variations
-user-invocable: true
-allowed-tools: AskUserQuestion, Read, Edit, Bash, Glob
+argument-hint: "<draft text>"
 ---
 
 # Draft Post Workflow

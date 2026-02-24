@@ -1,8 +1,6 @@
 ---
-name: scope-proposal
 description: Scope work and produce a shareable client proposal document
-user-invocable: true
-allowed-tools: AskUserQuestion, Read, Write, Bash, Glob, mcp__notion__notion-search, mcp__notion__notion-fetch
+argument-hint: "<client name>"
 ---
 
 # Scope Proposal Skill

@@ -1,8 +1,5 @@
 ---
-name: social-queue
 description: Review queued social post ideas
-user-invocable: true
-allowed-tools: Bash, mcp__notion__notion-fetch
 ---
 
 # Social Queue

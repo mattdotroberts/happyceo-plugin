@@ -1,8 +1,5 @@
 ---
-name: start-day
 description: Morning briefing to set up your day
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, Read, Edit, Glob, Grep, WebSearch, mcp__notion__notion-search, mcp__notion__notion-create-pages, mcp__notion__notion-update-page, mcp__gmail__search_emails, mcp__gmail__read_email, mcp__gmail__send_email, mcp__gmail__draft_email, mcp__gmail__modify_email, mcp__gmail__batch_modify_emails
 ---
 
 # Start Day Workflow

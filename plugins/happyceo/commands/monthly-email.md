@@ -1,8 +1,5 @@
 ---
-name: monthly-email
 description: Compose and send the monthly customer email roundup
-user-invocable: true
-allowed-tools: AskUserQuestion, Read, Glob, Bash, WebFetch, mcp__notion__notion-search
 ---
 
 # Monthly Email Workflow

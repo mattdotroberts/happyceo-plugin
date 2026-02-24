@@ -1,8 +1,6 @@
 ---
-name: meeting-wrap
 description: Post-meeting wrap-up with insights, tasks, follow-up email, and cadence
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, Read, mcp__notion__notion-search, mcp__notion__notion-fetch, mcp__notion__notion-create-pages, mcp__notion__notion-update-page, mcp__gmail__draft_email
+argument-hint: "<contact or company name>"
 ---
 
 # Meeting Wrap

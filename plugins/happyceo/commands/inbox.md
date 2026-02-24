@@ -1,8 +1,6 @@
 ---
-name: inbox
 description: Process Gmail inbox - triage, archive noise, create tasks, draft replies
-user-invocable: true
-allowed-tools: AskUserQuestion, mcp__gmail__search_emails, mcp__gmail__read_email, mcp__gmail__send_email, mcp__gmail__draft_email, mcp__gmail__modify_email, mcp__gmail__batch_modify_emails, mcp__gmail__list_email_labels, mcp__notion__notion-search, mcp__notion__notion-create-pages, mcp__notion__notion-update-page
+argument-hint: "[quick]"
 ---
 
 # Inbox Skill

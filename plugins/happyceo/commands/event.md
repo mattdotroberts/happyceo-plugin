@@ -1,8 +1,6 @@
 ---
-name: event
 description: Generate event content - Luma descriptions, LinkedIn promotion, reminders, recaps, and email announcements
-user-invocable: true
-allowed-tools: AskUserQuestion, Read, WebSearch, WebFetch, mcp__notion__notion-search
+argument-hint: "<action: luma|promote|remind|recap|email>"
 ---
 
 # Event Workflow

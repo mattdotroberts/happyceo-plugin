@@ -1,8 +1,6 @@
 ---
-name: meeting-prep
 description: Prepare for an upcoming meeting with context, bio, and discovery questions
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, Read, WebSearch, mcp__notion__notion-search, mcp__notion__notion-create-pages, mcp__notion__notion-update-page
+argument-hint: "<contact name or meeting time>"
 ---
 
 # Meeting Prep

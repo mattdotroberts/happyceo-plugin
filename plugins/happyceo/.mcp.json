@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "gmail": {
+      "type": "http",
+      "url": "https://mcp.google.com/gmail"
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "google-calendar": {
+      "type": "http",
+      "url": "https://mcp.google.com/calendar"
+    }
+  }
+}

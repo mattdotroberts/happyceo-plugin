@@ -1,8 +1,6 @@
 ---
-name: social-post
 description: Polish a queued idea and prepare it for posting
-user-invocable: true
-allowed-tools: AskUserQuestion, Bash, Read, mcp__notion__notion-fetch, mcp__notion__notion-update-page
+argument-hint: "<topic or queue number>"
 ---
 
 # Social Post

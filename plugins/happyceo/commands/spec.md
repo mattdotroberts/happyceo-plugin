@@ -1,9 +1,6 @@
 ---
-name: spec
-argument-hint: "[feature or project to spec]"
 description: Deep interview to create a detailed spec before building
-user-invocable: true
-allowed-tools: AskUserQuestion, Write, Read, Glob
+argument-hint: "<feature or project to spec>"
 ---
 
 # Spec Interview
