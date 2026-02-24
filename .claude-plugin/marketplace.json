@@ -1,9 +1,26 @@
 {
-  "category": "business-operations",
-  "tags": ["agency", "founder", "crm", "notion", "email", "meetings", "proposals", "social-media", "daily-ops"],
-  "shortDescription": "Run your agency like a CEO with an AI chief of staff",
-  "longDescription": "HappyCEO is a 19-skill Co-CEO system built for agency founders and small team leaders. It handles your daily briefings, meeting prep and follow-up, CRM hygiene, social content pipeline, client proposals, monthly emails, and task management — all wired into Notion, Gmail, Slack, and Google Calendar. Run /happyceo:setup to configure it for your business in 5 minutes.",
-  "icon": "briefcase",
-  "screenshots": [],
-  "minClaudeCodeVersion": "2.0.0"
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "happyceo-plugins",
+  "version": "1.0.0",
+  "description": "HappyCEO — Co-CEO plugin for agency founders running on Claude Code",
+  "owner": {
+    "name": "Happy Operators",
+    "email": "hey@happyoperators.com"
+  },
+  "metadata": {
+    "description": "Run your agency like a CEO with an AI chief of staff. 19 skills for daily briefings, meetings, CRM, content, proposals, and email — all wired into Notion."
+  },
+  "plugins": [
+    {
+      "name": "happyceo",
+      "description": "Co-CEO assistant — 19 skills for daily ops, meetings, CRM, content, proposals, and email",
+      "version": "1.0.0",
+      "author": {
+        "name": "Happy Operators",
+        "email": "hey@happyoperators.com"
+      },
+      "source": "./plugins/happyceo",
+      "category": "productivity"
+    }
+  ]
 }
