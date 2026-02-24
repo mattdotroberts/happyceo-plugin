@@ -1,0 +1,9 @@
+{
+  "category": "business-operations",
+  "tags": ["agency", "founder", "crm", "notion", "email", "meetings", "proposals", "social-media", "daily-ops"],
+  "shortDescription": "Run your agency like a CEO with an AI chief of staff",
+  "longDescription": "HappyCEO is a 19-skill Co-CEO system built for agency founders and small team leaders. It handles your daily briefings, meeting prep and follow-up, CRM hygiene, social content pipeline, client proposals, monthly emails, and task management — all wired into Notion, Gmail, Slack, and Google Calendar. Run /happyceo:setup to configure it for your business in 5 minutes.",
+  "icon": "briefcase",
+  "screenshots": [],
+  "minClaudeCodeVersion": "2.0.0"
+}
