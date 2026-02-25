@@ -1,10 +1,12 @@
 ---
-description: Daily wrap-up and tomorrow prep
+name: end-day
+description: Daily wrap-up — log completed tasks, capture wins, update CRM, process inbox, and prep for tomorrow. Trigger with "wrap up my day", "end of day", "daily wrap-up", "what did I do today", or "prep tomorrow".
 ---
+
 
 # End Day Workflow
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

@@ -1,11 +1,12 @@
 ---
-description: Scope work and produce a shareable client proposal document
-argument-hint: "<client name>"
+name: scope-proposal
+description: Scope work and produce a shareable client proposal document. Interactive process: context gathering, outline review, full document generation. Trigger with "write a proposal for [client]", "scope proposal", "client proposal", "quote for [company]", or "proposal for [project]".
 ---
+
 
 # Scope Proposal Skill
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

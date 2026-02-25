@@ -1,11 +1,12 @@
 ---
-description: Post-meeting wrap-up with insights, tasks, follow-up email, and cadence
-argument-hint: "<contact or company name>"
+name: meeting-wrap
+description: Post-meeting wrap-up — extract insights, update meeting and CRM records, create follow-up task, and draft follow-up email. Trigger with "just had a call with [name]", "meeting wrap [company]", "post-meeting notes", or "follow up from my meeting".
 ---
+
 
 # Meeting Wrap
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

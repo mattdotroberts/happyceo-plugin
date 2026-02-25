@@ -1,11 +1,12 @@
 ---
-description: Generate event content - Luma descriptions, LinkedIn promotion, reminders, recaps, and email announcements
-argument-hint: "<action: luma|promote|remind|recap|email>"
+name: event
+description: Generate event content — Luma descriptions, LinkedIn promotions, day-before reminders, post-event recaps, and subscriber email announcements. Trigger with "create event content", "event promo", "event recap", "luma description", or "promote [event name]".
 ---
+
 
 # Event Workflow
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

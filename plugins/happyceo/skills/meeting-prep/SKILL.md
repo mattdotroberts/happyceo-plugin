@@ -1,11 +1,12 @@
 ---
-description: Prepare for an upcoming meeting with context, bio, and discovery questions
-argument-hint: "<contact name or meeting time>"
+name: meeting-prep
+description: Prepare for an upcoming meeting — research the contact, ensure CRM record exists, create meeting record, and generate discovery questions. Trigger with "prep for my meeting with [name]", "I'm meeting [company]", "meeting prep [name]", or "get ready for [meeting]".
 ---
+
 
 # Meeting Prep
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

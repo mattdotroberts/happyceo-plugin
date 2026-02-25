@@ -1,10 +1,12 @@
 ---
-description: Compose and send the monthly customer email roundup
+name: monthly-email
+description: Compose and send the monthly customer email roundup — gathers recent content, events, and updates. Trigger with "monthly email", "send the roundup", "customer newsletter", "compose monthly update", or "email our subscribers".
 ---
+
 
 # Monthly Email Workflow
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

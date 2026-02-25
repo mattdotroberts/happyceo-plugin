@@ -1,11 +1,12 @@
 ---
-description: Refine rough drafts into polished LinkedIn posts with 2-3 variations
-argument-hint: "<draft text>"
+name: draft-post
+description: Refine rough drafts into polished LinkedIn posts with 2-3 variations. Follows your content calendar and style guide. Trigger with "draft a post about [topic]", "polish this post", "LinkedIn post", "write a post", or "help me with a social post".
 ---
+
 
 # Draft Post Workflow
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

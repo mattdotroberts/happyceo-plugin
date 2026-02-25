@@ -1,11 +1,12 @@
 ---
-description: Quickly log a task you're working on
-argument-hint: "<task description>"
+name: log-task
+description: Quick task capture to your knowledge base. Trigger with "log a task", "add a task", "I need to [task]", "remind me to [task]", or "create a task for [description]".
 ---
+
 
 # Log Task
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

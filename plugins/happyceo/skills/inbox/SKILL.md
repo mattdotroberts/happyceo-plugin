@@ -1,11 +1,12 @@
 ---
-description: Process Gmail inbox - triage, archive noise, create tasks, draft replies
-argument-hint: "[quick]"
+name: inbox
+description: Process your email inbox — triage messages, archive noise, create tasks from actionable items, and draft replies. Trigger with "process my inbox", "check my email", "triage inbox", "email triage", or "what's in my inbox".
 ---
+
 
 # Inbox Skill
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

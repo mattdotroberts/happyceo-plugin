@@ -1,11 +1,12 @@
 ---
-description: Capture a social post idea to the queue
-argument-hint: "<idea text>"
+name: social-idea
+description: Capture a social post idea to your content queue. Auto-suggests day and format based on content calendar. Trigger with "social idea", "post idea", "I want to write about [topic]", or "add to social queue".
 ---
+
 
 # Social Idea
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

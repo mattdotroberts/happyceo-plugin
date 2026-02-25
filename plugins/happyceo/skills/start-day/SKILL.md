@@ -1,10 +1,12 @@
 ---
-description: Morning briefing to set up your day
+name: start-day
+description: Start your day with a prioritized briefing covering calendar, pipeline, tasks, inbox, and content calendar. Works standalone with your input, supercharged when you connect your calendar, knowledge base, and email. Trigger with "morning briefing", "start my day", "what's on my plate today", "daily brief", or "prep my day".
 ---
+
 
 # Start Day Workflow
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

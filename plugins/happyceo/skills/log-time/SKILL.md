@@ -1,11 +1,12 @@
 ---
-description: Log hours spent on a task
-argument-hint: "<task name> <hours>"
+name: log-time
+description: Log hours spent on a task. Trigger with "log [N] hours on [task]", "spent [N] hours on [task]", "track time", or "update hours".
 ---
+
 
 # Log Time
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

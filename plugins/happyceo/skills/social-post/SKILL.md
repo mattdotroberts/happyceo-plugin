@@ -1,11 +1,12 @@
 ---
-description: Polish a queued idea and prepare it for posting
-argument-hint: "<topic or queue number>"
+name: social-post
+description: Select an idea from your queue, polish it with 2-3 variations, and mark as published. Trigger with "publish a post", "social post", "post from queue", or "write today's post".
 ---
+
 
 # Social Post
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

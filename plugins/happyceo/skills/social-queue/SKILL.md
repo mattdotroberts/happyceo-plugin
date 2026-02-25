@@ -1,10 +1,12 @@
 ---
-description: Review queued social post ideas
+name: social-queue
+description: View all queued social post ideas grouped by day. Shows today's format first. Trigger with "show social queue", "what posts are queued", "content queue", or "what should I post".
 ---
+
 
 # Social Queue
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

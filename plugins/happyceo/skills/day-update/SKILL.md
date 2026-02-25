@@ -1,10 +1,12 @@
 ---
-description: Quick check-in to update task progress and log time
+name: day-update
+description: Quick mid-day check-in to update task progress and log time. Lighter than end-day. Trigger with "quick update", "update my tasks", "log progress", or "mid-day check-in".
 ---
+
 
 # Day Update
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 

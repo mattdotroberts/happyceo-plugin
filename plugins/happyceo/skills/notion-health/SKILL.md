@@ -1,10 +1,12 @@
 ---
-description: Check Notion data health and flag stale records
+name: notion-health
+description: Data hygiene check — find stale leads, missing fields, overdue tasks, and records needing attention. Trigger with "check data health", "notion hygiene", "stale leads", "data cleanup", or "audit my CRM".
 ---
+
 
 # Notion Health Check
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 ## Connectors
 
